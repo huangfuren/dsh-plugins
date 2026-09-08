@@ -30,6 +30,16 @@
       "description": "Persistent full-window background image with a master switch, adjustable opacity and brightness, and theme-token override.",
       "listed": false,
       "blocked": "needs dsh.bundle manifest; only dsh.client declared (in client-bg)"
+    },
+    {
+      "name": "dsh-client-ui-balance",
+      "repo": "https://github.com/huangfuren/dsh-client-ui-balance",
+      "version": "0.1.0-rc.5",
+      "category": "usage",
+      "categoryLabel": "用量与计费",
+      "description": "Real-time provider API balance capsule in the conversation session header, polling llm.balance with an expandable detail panel.",
+      "listed": false,
+      "blocked": "repo created 2026-09-08; eligible for registry submission once past the 1-day bar"
     }
   ]
 }
