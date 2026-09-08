@@ -9,7 +9,8 @@
       "category": "tools",
       "categoryLabel": "工具与能力",
       "description": "LAN file and folder transfer over the LocalSend v2 protocol, plus temporary HTTP download links that need no receiver software.",
-      "listed": false
+      "listed": false,
+      "pr": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/4676"
     },
     {
       "name": "dsh-outline-auto",
@@ -27,7 +28,8 @@
       "category": "theme",
       "categoryLabel": "主题与外观",
       "description": "Persistent full-window background image with a master switch, adjustable opacity and brightness, and theme-token override.",
-      "listed": false
+      "listed": false,
+      "blocked": "needs dsh.bundle manifest; only dsh.client declared (in client-bg)"
     }
   ]
 }
