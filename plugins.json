@@ -29,7 +29,7 @@
       "categoryLabel": "主题与外观",
       "description": "Persistent full-window background image with a master switch, adjustable opacity and brightness, and theme-token override.",
       "listed": false,
-      "blocked": "needs dsh.bundle manifest; only dsh.client declared (in client-bg)"
+      "note": "dsh.bundle manifest added 2026-09-10: bg package declares dsh.bundle.patch → cordis.patch.yml; client-bg already declares dsh.client"
     },
     {
       "name": "dsh-client-ui-balance",
