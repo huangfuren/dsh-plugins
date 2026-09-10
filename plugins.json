@@ -1,6 +1,6 @@
 {
   "owner": "huangfuren",
-  "updated": "2026-09-08",
+  "updated": "2026-09-10",
   "plugins": [
     {
       "name": "dsh-localsend",
@@ -15,10 +15,10 @@
     {
       "name": "dsh-outline-auto",
       "repo": "https://github.com/huangfuren/dsh-outline-auto",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "category": "docs",
       "categoryLabel": "文档与知识库",
-      "description": "Search, read and write an Outline knowledge base from conversations, with whitelist-guarded approval for every document write.",
+      "description": "Search, read and write an Outline knowledge base from conversations, with whitelist-guarded approval for every document write and optional local Markdown save.",
       "listed": true
     },
     {
@@ -39,7 +39,7 @@
       "categoryLabel": "用量与计费",
       "description": "Real-time provider API balance capsule in the conversation session header, polling llm.balance with an expandable detail panel.",
       "listed": false,
-      "blocked": "repo created 2026-09-08; eligible for registry submission once past the 1-day bar"
+      "note": "repo created 2026-09-08; 1-day bar passed 2026-09-10 — eligible for awesome-dsh-plugin registry submission"
     }
   ]
 }
