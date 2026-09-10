@@ -40,6 +40,34 @@
       "description": "Real-time provider API balance capsule in the conversation session header, polling llm.balance with an expandable detail panel.",
       "listed": false,
       "note": "repo created 2026-09-08; 1-day bar passed 2026-09-10 — eligible for awesome-dsh-plugin registry submission"
+    },
+    {
+      "name": "dsh-bg2",
+      "repo": "https://github.com/huangfuren/dsh-bg2",
+      "version": "2.0.0",
+      "category": "theme",
+      "categoryLabel": "主题与外观",
+      "description": "Background plugin host half v2: node:fs storage under $DSH_HOME/background, /bg-upload /bg-file /bg-rpc routes, config persistence, legacy migration.",
+      "listed": false,
+      "blocked": "needs dsh.bundle manifest; only dsh.client declared (in client-bg)"
+    },
+    {
+      "name": "dsh-client-hqst",
+      "repo": "https://github.com/huangfuren/dsh-client-hqst",
+      "version": "1.0.0",
+      "category": "tools",
+      "categoryLabel": "工具与能力",
+      "description": "Right-side floating panel listing the current session's questions with click-to-jump highlighting and brief brand-color highlight.",
+      "listed": false
+    },
+    {
+      "name": "dsh-client-ui-aqua",
+      "repo": "https://github.com/WYH66666666/DSH-Transparent-UI-Plugin",
+      "version": "1.0.8",
+      "category": "theme",
+      "categoryLabel": "主题与外观",
+      "description": "Glassmorphism theme for the Web surface — adjustable blur, frost, fluid or wallpaper backdrop, unified corners, and motion.",
+      "listed": false
     }
   ]
 }
