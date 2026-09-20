@@ -1,6 +1,6 @@
 {
   "owner": "huangfuren",
-  "updated": "2026-09-18",
+  "updated": "2026-09-20",
   "plugins": [
     {
       "name": "dsh-localsend",
@@ -14,23 +14,24 @@
       "note": "PR #4676 merged 2026-09-11; 0.4.0 adds the SMB push tool"
     },
     {
-      "name": "dsh-outline-auto",
-      "repo": "https://github.com/huangfuren/dsh-outline-auto",
-      "version": "0.7.2",
+      "name": "dsh-outline",
+      "repo": "https://github.com/huangfuren/dsh-outline",
+      "version": "0.8.0",
       "category": "docs",
       "categoryLabel": "文档与知识库",
       "description": "Search, read and write an Outline knowledge base from conversations, with whitelist-guarded approval for every document write and optional local Markdown save.",
-      "listed": true
+      "listed": true,
+      "note": "renamed from dsh-outline-auto on 2026-09-20 (v0.8.0); runtime plugin id stays outline-auto so existing profile config needs no migration"
     },
     {
       "name": "dsh-sync",
       "repo": null,
-      "version": "0.1.0",
+      "version": "0.2.1",
       "category": "tools",
       "categoryLabel": "工具与能力",
-      "description": "Export the local dsh setup (settings, optional credentials, plugin sources, profile manifest) as a portable bundle with a self-contained apply.ps1, so another machine can pick it up without installing dsh-sync first.",
+      "description": "Move a whole dsh setup to another machine: exports settings, optionally AES-256-GCM-encrypted credentials, every profile's declaration files and all link: plugin sources into a portable bundle. The target needs neither dsh-sync nor identical paths — the bundle ships apply.ps1 / apply.sh / a one-click Windows wizard and a zero-dependency helper that verifies sha256 integrity, shows a dry run, backs up before overwriting and rolls back automatically on failure. The source machine is never written to.",
       "listed": false,
-      "note": "not published to GitHub yet — local working copy only"
+      "note": "0.2.1 (2026-09-20): multi-profile export, encrypted credential transfer, sha256 verification, cross-platform apply.sh, one-click Windows wizard, version-compatibility warning, target dir confirmation and an explicit 'not migrated' inventory (sessions / storages / background / skills). Verified read-only on the source and verified rollback on wrong passphrase. not published to GitHub yet — local working copy only"
     },
     {
       "name": "dsh-bg-plugin",
@@ -53,13 +54,14 @@
       "note": "version reset to a 0.3.0 baseline on 2026-09-17"
     },
     {
-      "name": "dsh-client-hqst",
-      "repo": "https://github.com/huangfuren/dsh-client-hqst",
-      "version": "1.0.0",
+      "name": "dsh-conversation",
+      "repo": "https://github.com/huangfuren/dsh-conversation",
+      "version": "1.1.0",
       "category": "tools",
       "categoryLabel": "工具与能力",
-      "description": "Right-side floating panel listing the current session's questions with click-to-jump highlighting and brief brand-color highlight.",
-      "listed": false
+      "description": "Session outline panel combining history questions (with index + time) and the assistant reply's Markdown heading tree: level slider, search, bookmarks, copy, click-to-jump with reading-position tracking.",
+      "listed": false,
+      "note": "renamed from dsh-client-hqst on 2026-09-20, same day 1.1.0 merged the whole dsh-outline plugin (heading tree / level slider / search / bookmarks / copy) into this panel"
     },
     {
       "name": "dsh-client-ui-aqua",
