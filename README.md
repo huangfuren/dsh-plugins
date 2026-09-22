@@ -11,8 +11,8 @@
 | dsh-sync | 0.2.1 | 工具与能力 | 整机搬家：导出 settings / 凭据（可选 AES-256-GCM 加密）/ 全部 profile 声明文件 / 所有 `link:` 插件源码为可移植 bundle。新机无需先装 dsh-sync、也无需相同路径——包内自带 `apply.ps1` / `apply.sh` / 一键向导与零依赖小工具：sha256 校验、预演、覆盖前备份、失败自动回滚；源机严格只读 | 未提交（尚未建 GitHub 仓库，本地 0.2.1） |
 | [dsh-bg-plugin](https://github.com/huangfuren/dsh-bg-plugin) | 1.0.0 | 主题与外观 | 全窗口背景图，含总开关与透明度/亮度/遮罩/模糊/位置/填充调节；含 `dsh-bg`（宿主端）与 `dsh-client-bg`（客户端）两个包 | 未提交（已取代 dsh-bg2，后者 2026-09-17 移除） |
 | [dsh-client-ui-balance](https://github.com/huangfuren/dsh-client-ui-balance) | 0.3.0 | 用量与计费 | 会话头部实时余额胶囊，轮询 `llm.balance`，可展开详情面板 | 未提交 |
-| [dsh-conversation](https://github.com/huangfuren/dsh-conversation) | 1.1.0 | 工具与能力 | 会话大纲面板：历史提问（带序号与时间）+ 助手回复的 Markdown 标题树，含层级滑块、搜索、收藏、复制、点击定位与阅读位置跟随（已并合 dsh-outline；原名 dsh-client-hqst） | 未提交 |
-| [dsh-client-ui-aqua](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) | 1.0.8 | 主题与外观 | 高自由度玻璃主题：模糊、磨砂、流体/壁纸背景、统一圆角与动效（第三方插件） | 未提交（第三方，本地镜像） |
+| [dsh-conversation](https://github.com/huangfuren/dsh-conversation) | 1.3.1 | 工具与能力 | 会话大纲面板：用户提问为根节点（序号、提问时间、该轮工具数与正文量），助手回复的 Markdown 标题按层级挂在其下；三档宽度、右侧密度刻度条、搜索范围、收藏、复制与导出 Markdown、节级跳转、键盘导航、按会话记忆阅读位置（已并合 dsh-outline；原名 dsh-client-hqst） | 已提交（[PR #5653](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/5653)，待合并，分类 ui） |
+| [dsh-client-ui-aqua](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) | 1.0.9 | 主题与外观 | 高自由度玻璃主题：模糊、磨砂、流体/壁纸背景、统一圆角与动效（第三方插件） | 未提交（第三方，本地镜像） |
 
 ## 安装
 

@@ -1,6 +1,6 @@
 {
   "owner": "huangfuren",
-  "updated": "2026-09-20",
+  "updated": "2026-09-22",
   "plugins": [
     {
       "name": "dsh-localsend",
@@ -56,17 +56,18 @@
     {
       "name": "dsh-conversation",
       "repo": "https://github.com/huangfuren/dsh-conversation",
-      "version": "1.1.0",
+      "version": "1.3.1",
       "category": "tools",
       "categoryLabel": "工具与能力",
-      "description": "Session outline panel combining history questions (with index + time) and the assistant reply's Markdown heading tree: level slider, search, bookmarks, copy, click-to-jump with reading-position tracking.",
+      "description": "Conversation outline panel for the web surface: user questions (index, time, per-turn tool count and text volume) as root nodes with the Markdown headings of assistant replies beneath them. Three width tiers, right-edge density rail, search scope, bookmarks, copy and export as Markdown, section jump, keyboard navigation, per-session reading-position memory.",
       "listed": false,
-      "note": "renamed from dsh-client-hqst on 2026-09-20, same day 1.1.0 merged the whole dsh-outline plugin (heading tree / level slider / search / bookmarks / copy) into this panel"
+      "pr": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/5653",
+      "note": "renamed from dsh-client-hqst on 2026-09-20, same day 1.1.0 merged the whole dsh-outline plugin; 1.2.0 added the navigation surface, 1.3.1 history paging and precision jump. submitted to awesome-dsh-plugin on 2026-09-22 as PR #5653 (category ui) — pending"
     },
     {
       "name": "dsh-client-ui-aqua",
       "repo": "https://github.com/WYH66666666/DSH-Transparent-UI-Plugin",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "category": "theme",
       "categoryLabel": "主题与外观",
       "description": "Glassmorphism theme for the Web surface — adjustable blur, frost, fluid or wallpaper backdrop, unified corners, and motion.",
